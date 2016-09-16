@@ -16,6 +16,7 @@
   <node name="pointcloud_to_laserscan_node" pkg="pointcloud_to_laserscan" type="pointcloud_to_laserscan_node" />
 
   <!-- URDF -->
-  <!-- TODO -->
+    <include file="$(find deeplearning_bringup)/launch/include/description.launch.xml" />
+
 
 </launch>
