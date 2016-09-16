@@ -1,0 +1,21 @@
+<launch>
+
+  <remap from="camera/depth/points" to="cloud_in" />
+  <remap from="mobile_base/commands/velocity" to="cmd_vel" />
+
+  <!-- Kobuki Base -->
+  <include file="$(find kobuki_node)/launch/minimal.launch" />
+
+  <!-- Odometry (graft) -->
+  <include file="$(find deeplearning_bringup)/launch/include/graft.launch.xml" />
+
+  <!-- ASUS Xtion -->
+  <include file="$(find openni2_launch)/launch/openni2.launch" />
+
+  <!-- Pointcloud To LaserScan -->
+  <node name="pointcloud_to_laserscan_node" pkg="pointcloud_to_laserscan" type="pointcloud_to_laserscan_node" />
+
+  <!-- URDF -->
+  <!-- TODO -->
+
+</launch>
