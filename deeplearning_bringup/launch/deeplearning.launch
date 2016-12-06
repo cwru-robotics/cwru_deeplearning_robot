@@ -7,7 +7,7 @@
   <include file="$(find kobuki_node)/launch/minimal.launch" />
 
   <!-- Odometry (graft) -->
-  <include file="$(find deeplearning_bringup)/launch/include/graft.launch.xml" />
+  <!-- <include file="$(find deeplearning_bringup)/launch/include/graft.launch.xml" /> -->
 
   <!-- ASUS Xtion -->
   <include file="$(find openni2_launch)/launch/openni2.launch" />
