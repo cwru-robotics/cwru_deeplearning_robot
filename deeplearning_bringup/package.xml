@@ -12,10 +12,14 @@
   <buildtool_depend>catkin</buildtool_depend>
 
   <run_depend>kobuki</run_depend>
-  <run_depend>turtlebot_description</run_depend>
+  <run_depend>deeplearning_description</run_depend>
   <run_depend>robot_state_publisher</run_depend>
   <run_depend>xacro</run_depend>
   <run_depend>openni2_launch</run_depend>
   <run_depend>pointcloud_to_laserscan</run_depend>
+  <run_depend>robot_pose_ekf</run_depend>
+  <run_depend>slam_gmapping</run_depend>
+  <run_depend>joy</run_depend>
+  <run_depend>teleop_twist_joy</run_depend>
 
 </package>
