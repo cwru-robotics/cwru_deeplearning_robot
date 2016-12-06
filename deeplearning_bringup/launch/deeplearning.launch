@@ -16,7 +16,9 @@
   <node name="pointcloud_to_laserscan_node" pkg="pointcloud_to_laserscan" type="pointcloud_to_laserscan_node" />
 
   <!-- URDF -->
-    <include file="$(find deeplearning_bringup)/launch/include/description.launch.xml" />
+  <include file="$(find deeplearning_bringup)/launch/include/description.launch.xml" />
 
+  <!-- Teleop -->
+  <include file="$(find deeplearning_bringup)/launch/include/teleop.launch.xml" />
 
 </launch>
