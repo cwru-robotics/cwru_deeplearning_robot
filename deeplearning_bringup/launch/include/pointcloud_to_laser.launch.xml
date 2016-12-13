@@ -1,0 +1,18 @@
+<launch>
+<!-- Pointcloud To LaserScan -->
+  <node name="pointcloud_to_laserscan_node" pkg="pointcloud_to_laserscan" type="pointcloud_to_laserscan_node" >
+    <remap from="cloud_in" to="camera/depth/points" />
+
+    <param name="min_height"        type="double" value="0.0" />
+    <param name="max_height"        type="double" value="1.0" />
+    <param name="angle_min"         type="double" value="-1.57" />
+    <param name="angle_max"         type="double" value="1.57" />
+    <param name="angle_increment"   type="double" value="0.0087" />
+    <param name="scan_time"         type="double" value="0.0333" />
+    <param name="range_min"         type="double" value="0.45" />
+    <param name="range_max"         type="double" value="5.0" />
+    <param name="target_frame"      type="str" value="camera_link" />
+    <param name="concurrency_level" type="int" value="1" />
+    <param name="use_inf"           type="boolean" value="true" />
+  </node>
+</launch>
