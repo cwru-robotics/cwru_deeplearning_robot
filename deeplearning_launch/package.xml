@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package>
+  <name>deeplearning_launch</name>
+  <version>0.0.0</version>
+  <description>The deeplearning_launch package</description>
+
+  <author email="bettaieb@case.edu">Luc Bettaieb</author>
+  <maintainer email="luc.bettaieb@gmail.com">Luc Bettaieb</maintainer>
+
+  <license>BSD</license>
+
+  <!-- The *_depend tags are used to specify dependencies -->
+  <!-- Dependencies can be catkin packages or system dependencies -->
+  <!-- Examples: -->
+  <!-- Use build_depend for packages you need at compile time: -->
+  <!--   <build_depend>message_generation</build_depend> -->
+  <!-- Use buildtool_depend for build tool packages: -->
+  <!--   <buildtool_depend>catkin</buildtool_depend> -->
+  <!-- Use run_depend for packages you need at runtime: -->
+  <!--   <run_depend>message_runtime</run_depend> -->
+  <!-- Use test_depend for packages you need only for testing: -->
+  <!--   <test_depend>gtest</test_depend> -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>
