@@ -15,7 +15,7 @@
   <!-- <include file="$(find deeplearning_bringup)/launch/include/pointcloud_to_laser.launch.xml" /> -->
 
   <!-- Depthimage To LaserScan -->
-  <include file="$(find deeplearning_bringup)/launch/include/depthimage_to_laser.launch.xml" /> 
+  <!-- <include file="$(find deeplearning_bringup)/launch/include/depthimage_to_laser.launch.xml" /> -->
   
   <!-- URDF -->
   <include file="$(find deeplearning_bringup)/launch/include/description.launch.xml" />
