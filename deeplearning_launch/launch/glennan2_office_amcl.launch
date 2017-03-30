@@ -2,7 +2,7 @@
 
   <node pkg="hokuyo_node" type="hokuyo_node" name="hokuyo_node" />
 
-  <arg name="map_file" default="$(find thesis_maps)/maps/office_tb_manual/office_tb_manual.yaml"/>
+  <arg name="map_file" default="$(find thesis_maps)/maps/glennan210/glennan210.yaml"/>
 
   <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)" />
 
